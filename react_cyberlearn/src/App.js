@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import StateDemo from './State/StateDemo';
+import Styling from './Styling/Styling';
+// import StateDemo from './State/StateDemo';
 // import RenderingConditions from './RenderingConditions/RenderingConditions';
 // import HandleEvent from './HandleEvent/HandleEvent';
 // import Header from './component/Demo/Header';
@@ -15,7 +16,10 @@ import StateDemo from './State/StateDemo';
 function App() {
   return (
     <div className="App">
-      <StateDemo />
+      {/* <StateDemo /> */}
+      <Styling />
+      <p className="txt">app component</p>
+      <p className="txtStyle">123</p>
     </div>
   );
 }
