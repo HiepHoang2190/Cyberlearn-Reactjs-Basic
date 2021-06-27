@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import RenderWithLoop from './RenderWithLoop/RenderWithLoop';
+import BaiTapRenderFilms from './BaiTapRenderFilms/BaiTapRenderFilms';
+// import RenderWithLoop from './RenderWithLoop/RenderWithLoop';
 // import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
 // import Styling from './Styling/Styling';
 // import StateDemo from './State/StateDemo';
@@ -18,7 +19,7 @@ import RenderWithLoop from './RenderWithLoop/RenderWithLoop';
 function App() {
   return (
     <div className="App">
-      <RenderWithLoop />
+      <BaiTapRenderFilms />
     </div>
   );
 }
