@@ -30,22 +30,17 @@ class RenderWithLoop extends Component {
     ];
 
     renderTable = () => {
-        let mangTrComponent = [];
-        for (let index = 0; index < this.producList.length; index++) {
-            let product = this.producList[index];
-            //Đối tượng jsx (có thể console.log để kiểm tra)
-            // console.log(<tr></tr>)
-            let trJSX = <tr key={index}>
+        // Cách 2 : dùng map
+        return this.producList.map((product, index) => {
+            return <tr key={index}>
                 <td>{product.id}</td>
                 <td>{product.name}</td>
                 <td>{product.price}</td>
-                <td><img style={{ width: "100px" }} src={product.img}></img></td>
+                <td><img src={product.img} style={{ width: "100px" }}></img></td>
                 <td></td>
             </tr>
-            // console.log('trJSX');
-            mangTrComponent.push(trJSX);
-        }
-        return mangTrComponent;
+        });
+        // return mangTrComponent; // nếu khai báo biến trên kia thì có return ở dưới này, còn ko thì return thẳng ở trên
     };
     render() {
         return (
