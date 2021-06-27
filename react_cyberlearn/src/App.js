@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import Styling from './Styling/Styling';
+import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
+// import Styling from './Styling/Styling';
 // import StateDemo from './State/StateDemo';
 // import RenderingConditions from './RenderingConditions/RenderingConditions';
 // import HandleEvent from './HandleEvent/HandleEvent';
@@ -16,10 +17,7 @@ import Styling from './Styling/Styling';
 function App() {
   return (
     <div className="App">
-      {/* <StateDemo /> */}
-      <Styling />
-      <p className="txt">app component</p>
-      <p className="txtStyle">123</p>
+      <BaiTapChonXe />
     </div>
   );
 }
