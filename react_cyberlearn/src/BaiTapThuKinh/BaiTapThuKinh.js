@@ -1,7 +1,14 @@
 import React, { Component } from 'react';
+import dataGlasses from '../Data/dataGlasses.json';
 
 class BaiTapThuKinh extends Component {
 
+
+    renderGlassesList = () => {
+        return dataGlasses.map((glassesItem, index) => {
+            return <img className="ml-2 p-2 border border-width-1" style={{ width: '110px', cursor: 'pointer' }} key={index} src={glassesItem.url}></img>
+        });
+    }
 
     render() {
 
@@ -43,6 +50,10 @@ class BaiTapThuKinh extends Component {
 
                             </div>
                         </div>
+                    </div>
+                    {/* Div chứa các kính được chọn */}
+                    <div className="bg-light container text-center mt-5 d-flex justify-content-center" >
+                        {this.renderGlassesList()}
                     </div>
                 </div>
             </div >
