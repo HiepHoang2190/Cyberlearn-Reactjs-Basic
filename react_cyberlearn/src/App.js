@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import BaiTapRenderFilms from './BaiTapRenderFilms/BaiTapRenderFilms';
+import BaiTapThuKinh from './BaiTapThuKinh/BaiTapThuKinh';
+// import BaiTapRenderFilms from './BaiTapRenderFilms/BaiTapRenderFilms';
 // import RenderWithLoop from './RenderWithLoop/RenderWithLoop';
 // import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
 // import Styling from './Styling/Styling';
@@ -19,7 +20,7 @@ import BaiTapRenderFilms from './BaiTapRenderFilms/BaiTapRenderFilms';
 function App() {
   return (
     <div className="App">
-      <BaiTapRenderFilms />
+      <BaiTapThuKinh />
     </div>
   );
 }
