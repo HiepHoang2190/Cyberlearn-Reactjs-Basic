@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
-import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
+import RenderWithLoop from './RenderWithLoop/RenderWithLoop';
+// import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
 // import Styling from './Styling/Styling';
 // import StateDemo from './State/StateDemo';
 // import RenderingConditions from './RenderingConditions/RenderingConditions';
@@ -17,7 +18,7 @@ import BaiTapChonXe from './BaiTapChonXe/BaiTapChonXe';
 function App() {
   return (
     <div className="App">
-      <BaiTapChonXe />
+      <RenderWithLoop />
     </div>
   );
 }
